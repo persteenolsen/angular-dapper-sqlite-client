@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/angular-14-example'),
+      dir: require('path').join(__dirname, './coverage/angular-dapper-sqlite-client'),
       subdir: '.',
       reporters: [
         { type: 'html' },
